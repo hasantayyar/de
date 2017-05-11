@@ -81,7 +81,7 @@ $(document).ready(function() {
     for (var i = 0; i < data.length; i++) {
       console.log(i)
       tags = tags.concat(data[i].tags).unique();
-      $('#container').append('<div class="element-item blue ' + data[i].tags.join(' ') + '" data-isotope-sort-name="s' + i + '"><span>' + i + '</span>' + data[i].question + '</div>');
+      $('#container').append('<div class="element-item ' + data[i].color + ' ' + data[i].tags.join(' ') + '" data-isotope-sort-name="s' + i + '"><span>' + i + '</span>' + data[i].question + '</div>');
     }
 
 

@@ -2,16 +2,19 @@
   {
     "tags": ["resmi", "saglik"],
     "question": "Soru 1",
-    "answer" : "Cevap 1"
+    "answer" : "Cevap 1",
+    "color": "blue"
   },
   {
     "tags": ["ev"],
     "question": "Ev arama siteleri",
-    "answer" : "Cevap 1"
+    "answer" : "Cevap 1",
+    "color" : "red"
   },
   {
     "tags": ["resmi"],
     "question": "Turkiye ehliyetini cevirme",
-    "answer" : "Cevap cevap"
+    "answer" : "Cevap cevap",
+    "color" : "orange"
   }
 ]
