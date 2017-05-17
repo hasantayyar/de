@@ -1,20 +1,32 @@
 [
   {
     "tags": ["resmi", "saglik"],
-    "question": "Soru 1",
-    "answer" : "Cevap 1",
+    "question": "Sağlık sistemi hakkında genel bilgileri nereden bulabilirim",
+    "answer" : "Cevap metni <b>html</b> icerebilir",
     "color": "blue"
   },
   {
     "tags": ["ev"],
     "question": "Ev arama siteleri",
-    "answer" : "Cevap 1",
+    "answer" : "Cevap metni",
     "color" : "red"
   },
   {
     "tags": ["resmi"],
-    "question": "Turkiye ehliyetini cevirme",
-    "answer" : "Cevap cevap",
+    "question": "Blue kart nasil alirim?",
+    "answer" : "Cevap metni",
+    "color" : "blue"
+  },
+  {
+    "tags": ["resmi", "para"],
+    "question": "Onerilen bankalar",
+    "answer" : "Cevap metni",
+    "color" : "orange"
+  },
+  {
+    "tags": ["iş", "para"],
+    "question": "Ogrenciyken ne gibi islerde calisabilirim",
+    "answer" : "Cevap metni",
     "color" : "orange"
   }
 ]
