@@ -77,7 +77,7 @@ $(document).ready(function() {
 
   var tags = [];
 
-  $.getJSON('data.json', function(data) {
+  $.getJSON('data.json?v2', function(data) {
     for (var i = 0; i < data.length; i++) {
       console.log(i)
       tags = tags.concat(data[i].tags).unique();
