@@ -72,31 +72,44 @@ function debounce(fn, threshold) {
   }
 }
 
+window.onhashchange = function (event) {
+  var hash = location.hash;
+  var old = event.oldURL;
+  var newUrl = event.newURL;
+  return false;
+}
 
 $(document).ready(function() {
 
   var tags = [];
+  var hash = location.hash;
 
-  $.getJSON('data.json', function(data) {
-    for (var i = 0; i < data.length; i++) {
-      console.log(i)
-      tags = tags.concat(data[i].tags).unique();
-      $('#container').append('<div class="element-item ' + data[i].color + ' ' + data[i].tags.join(' ') + '" data-isotope-sort-name="s' + i + '"><span>' + i + '</span>' + data[i].question + '</div>');
-    }
+  $('#container').on('click', '.element-item', function(){ 
+     var answer = $(this).next('.answer').html();
+     $('#myModal').modal('show');
+    $('.modal-body').html(answer)
+  })
+
+for (var i = 0; i < data.length; i++) {
+  console.log(i)
+  tags = tags.concat(data[i].tags).unique();
+  $('#container').append('<div class="element-item ' + data[i].color + ' ' + data[i].tags.join(' ') + '" data-isotope-sort-name="' + i + '"><span>' + i + '</span>' + data[i].question + '</div>');
+  $('#container').append('<div class="answer" id="a' + i +'">' + data[i].answer + '</div>')
+}
 
 
-    // Append Buttons
-    // ----------------------------
-    for (var t = 0; t < tags.length; t++) {
-      $('#filters').append('<button class="button" data-filter=".' + tags[t] + '">' + tags[t] + '</button>');
-    }
+// Append Buttons
+// ----------------------------
+for (var t = 0; t < tags.length; t++) {
+  $('#filters').append('<button class="button" data-filter=".' + tags[t] + '">' + tags[t] + '</button>');
+}
 
-    startCode();
-
-  });
-
+startCode();
 
 });
+
+
+
 
 
 var itemReveal = Isotope.Item.prototype.reveal;

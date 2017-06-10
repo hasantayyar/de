@@ -18,3 +18,15 @@ h2{padding:10px;margin:10px}
 .element-item.green{background:#26C0A9}
 .element-item.orange{background:#F8865D}
 .element-item.red{background:#EE6679}
+.answer{display:none}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  height: 100%;
+  border-radius: 0;
+}
