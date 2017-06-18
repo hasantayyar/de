@@ -17,15 +17,15 @@ var data = [{
   "tags": ["resmi"],
   "question": "Turkiye ehliyetini cevirme",
   "answer": "Cevap cevap",
-  "color": "orange"
+  "color": "blue"
 }, {
   "tags": ["ceviri", "evrak"],
   "question": "Yeminli tercuman onerisi",
   "answer": "<ul><li>1. Senscript bir cok dili destekliyor http://www.senscript.de/</li> \
       <li>2. </li></ul>",
-  "color": "orange"
+  "color": "blue"
 }, {
-  "tags": ["tasima", "ev"],
+  "tags": ["tasinma", "ev"],
   "question": "Esya tasiyacagim ama nasil?",
   "answer": "<ul><li>1. Boris Sar, 0152 340 590 23, facebook.com/boris.sar</li> \
       <li>2. Girl with a big car - https://www.facebook.com/girlwithabigcar/</li> \
@@ -38,6 +38,13 @@ var data = [{
       <li>9.  Yousriben Abdelhafidh -  01787904634, https://www.facebook.com/yousriben....</li> \
       <li>10- Ezequiel Ramone https://www.facebook.com/ezze.ramon...</li> \
       <li>11. Toni Ford Transit LLLong . 015227543174</li> \
-      <li>12- PONYBOB   https://www.facebook.com/ponybobapp/</li></ul>",
+      <li>12. Mark http://markmanwithavan.tumblr.com/</li><li>13. PONYBOB   https://www.facebook.com/ponybobapp/</li></ul>",
+  "color": "orange"
+}, {
+  "tags": ["tasima", "ev"],
+  "question": "Mobilya alacagim, nereleri onerirsin?",
+  "answer": "<ul><li>1. </li> \
+      <li>2.</li> \
+      <li>3. </li></ul>",
   "color": "orange"
 }]

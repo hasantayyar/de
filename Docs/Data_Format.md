@@ -1,6 +1,6 @@
-Datais stored in data.js in json format.
+Veri data.js icinde json formatinda saklanir.
 
-element format: 
+herbir kayit bu formatta girilir: 
 ```
 {
   "tags": ["resmi", "vize"],
