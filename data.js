@@ -1,3 +1,5 @@
+// unutma simdiki kategoriler sunlar :  ev, vize, resmi, eglence
+
 var data = [{
   "tags": ["resmi", "vize"],
   "question": "Bluecard nasil aliniyor",
@@ -19,13 +21,13 @@ var data = [{
   "answer": "Cevap cevap",
   "color": "blue"
 }, {
-  "tags": ["ceviri", "evrak"],
+  "tags": ["evrak"],
   "question": "Yeminli tercuman onerisi",
   "answer": "<ul><li>1. Senscript bir cok dili destekliyor http://www.senscript.de/</li> \
       <li>2. </li></ul>",
   "color": "blue"
 }, {
-  "tags": ["tasinma", "ev"],
+  "tags": ["ev"],
   "question": "Esya tasiyacagim ama nasil?",
   "answer": "<ul><li>Nuri Abi Transport +49 163 6674643</li><li>Boris Sar, 0152 340 590 23, facebook.com/boris.sar</li> \
       <li>Girl with a big car - https://www.facebook.com/girlwithabigcar/</li> \
@@ -41,7 +43,7 @@ var data = [{
       <li>Mark http://markmanwithavan.tumblr.com/</li><li>13. PONYBOB   https://www.facebook.com/ponybobapp/</li></ul>",
   "color": "orange"
 }, {
-  "tags": ["tasima", "ev"],
+  "tags": ["ev"],
   "question": "Mobilya alacagim, nereleri onerirsin?",
   "answer": "<ul><li>1. </li> \
       <li>2.</li> \
