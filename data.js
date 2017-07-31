@@ -13,7 +13,13 @@ var data = [{
 }, {
   "tags": ["ev"],
   "question": "Ev arama siteleri",
-  "answer": "Cevap 1",
+  "answer": "<ul><li><a href='http://Immobilienscout24.de'>Immobilienscout24.de</a></li> \
+      <li><a href='http://Immonet.de'>Immonet.de</a>/</li> \
+      <li><a href='http://Immowelt.de'>Immowelt.de</a></li> \
+      <li><a href='http://Suche-neue-wohnung.de'>Suche-neue-wohnung.de</a></li> \
+      <li><a href='http://Ebay-kleinanzeigen.de'>Ebay-kleinanzeigen.de</a></li> \
+      <li><a href='http://salzundbrot.com'>salzundbrot.com</a></li> \
+      <li><a href='http://Wohnung-jetzt.de'>Wohnung-jetzt.de</a></li></ul>",
   "color": "red"
 }, {
   "tags": ["resmi"],
